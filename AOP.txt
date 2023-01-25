@@ -1,0 +1,9 @@
+crate a class in the main config package 
+write @Aspect on the class level 
+create a logger factory - private static Logger log = LoggerFactory.getLogger(className.class) :- import this one by org.slf4j
+create a method with the arrgument of JoinPoint, with @Before - import org.aspectj.lang.JoinPoint , 
+inside the annotation give all the common package name ()
+write a xml.pos and sceama link in the the application.context.xml file ()
+write a bean in the applicationContext.xml file with the id and with that Aspect class fully qualified name  ()
+outside of the bean write a apo code with the class name like (<aop:aspectj-autoproxy>)
+In the property file we have to declare that logger file with the log4j.rootLogger with the Debug. ()
